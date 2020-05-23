@@ -1,0 +1,107 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: hotpink;
+    
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 35px;
+}
+
+p {
+    font-weight: 100;
+
+}
+
+.navbar-nav {
+    color: white;
+}
+
+.form-group {
+margin-top: 40px;
+}
+
+#bioText {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10;
+}
+
+.topSection {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    width: auto;
+    box-shadow: 0px 0px 10px 2px #888888;
+    margin-bottom: 30px;
+
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#introText {
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+    align-content: center;
+}
+
+.earlyLife {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 65px;
+    padding: 65px;
+
+}
+
+.brazil {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 65px;
+    padding: 65px;
+    background-color: #f6f6f6;
+
+}
+
+.marketing {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 65px;
+    padding: 65px;
+
+}
+
+footer {
+    text-align: center;
+    color: hotpink;
+}
+
+#navbar-brand {
+    text-align: center;
+
+}

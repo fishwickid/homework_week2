@@ -48,9 +48,9 @@
 
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="./index.html">About <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
-          <a class="nav-item nav-link" href="./contact.html">Contact</a>
+          <a class="nav-item nav-link" id="nav1" href="./index.html">About <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" id="nav2" href="./portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" id="nav3" href="./contact.html">Contact</a>
         </div>
       </div>
     </nav>
@@ -65,11 +65,11 @@
 
   <!-- Top section of site -->
   <section class="topSection">
-    <H1>Welcome to my first website</H1>
+    <H1>About Me</H1>
     <br>
     <br>
-    <p id="introText">I'm just starting to learn how to code. Wait 6 months and I'll be able to give you something way
-      more awesome than this.</p>
+    <p>I am a passionate marketing professional and web developer that loves exploring the creative 
+      realms of communication, digital media, web development and UX/UI design.</p>
     <br>
     <br>
 
@@ -79,75 +79,109 @@
   </section>
   <!-- end top section -->
 
+  <div class="container-fluid" id="personalInfo">
+    <div class="row">
+    <div class="col-sm-12">
+      <h1><center>Personal Information</center>></h1>
+    <h3>Phone: 0416 445 060</h3>
+
+      <h3>Email: chadfishwick@gmail.com</h3>
+      
+      <h3>Address: 6/9 Edgehill Street, Scarborough</h3>
+      
+     <h3>Nationality: Australian</h3>
+      
+      <h3>Date of Birth: 27/09/1985</h3>
+    </div>
+  </div>
+</div>
 
   <div class="centreDiv">
 
 
 
-    <!-- early life -->
-    <section class="earlyLife">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="card" style="max-width: inherit;">
-              <img src="./assets/Images/Chad-Website.jpg" class="card-img-top" alt="Rio De Janeiro">
-              <div class="card-body">
-                <H3 id="headerH3">Early Life:</H3>
-                <p id="bioText">I was born and raised in Perth Australia. I grew up here and studied in Perth until I
-                  was
-                  22 and then I moved to Brazil to teach English.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+<!-- Start of Bootstrap container -->
+<div class="container">
+
+  <!-- Row 1--> 
+  <div class="row">
+      <div class="col-sm-12">
+          <p id="bioText">Take a look at some of my most recent projects.</p>
       </div>
-    </section>
+  </div>
+  <br>
+  <br>
+  
 
-    <!-- end early life -->
-
-
-    <!-- Moved to Brazil -->
-    <Section class="brazil">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="card" style="max-width: inherit;">
-              <img src="./assets/Images/BRAZIL.jpg" class="card-img-top" alt="Rio De Janeiro">
+  <!-- Row 2 -->
+  <div class="row">
+      <!-- column 1 -->
+      <div class="col-sm-6">
+          <div class="card" style="width:fit-content">
+              <img src="./assets/Images/Wine-2-Dine.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <H3 id="headerH3">Brazil Life:</H3>
-                <p id="bioText">I lived in Brazil for 9 years and met a lot of really cool people.</p>
+                  <h3 class="card-title">Wine2Dine</h3>
+                  <p class="card-text">Find the perfect wine form any cuisine and a local BYO restaurant to try new food</p>
+                  <a href="https://fishwickid.github.io/team_project_01/" class="btn btn-primary">Learn More</a>
               </div>
-            </div>
           </div>
-    </Section>
-
-
-    <!-- end move to brazil -->
-
-
-    <!-- Digital Marketing -->
-    <section class="marketing">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="card" style="width:fit-content">
-              <img src="./assets/Images/digital marketing.jpg" class="card-img-top" alt="Digital Marketing Specialist">
+      </div>
+      <!-- Column 2-->
+      <div class="col-sm-6">
+          <div class="card" style="width:fit-content">
+              <img src="/assets/Images/Day-Planner.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <H3 id="headerH3">Now What?</H3>
-                <p id="bioText">I currently work in digital marketing and hope that learning how to code will give me
-                  the skills
-                  to level up in my career and help people in some way.</p>
+                  <h3 class="card-title">
+                      <centre>Day Planner</centre>
+                  </h3>
+                  <p class="card-text">Organise your day with much more intention with my daily planner</p>
+                  <a href="https://fishwickid.github.io/Work-Day-Schedule/" class="btn btn-primary">Learn More</a>
               </div>
-            </div>
           </div>
-        </div>
-    </section>
-    <!-- end digital marketing -->
 
-
+      </div>
 
   </div>
+  <!-- End Row 2-->
+
+  <!-- Row 3 -->
+  <div class="row">
+
+      <!-- column 1-->
+      <div class="col-sm-6">
+          <div class="card" style="width:fit-content">
+              <img src="/assets/Images/Weather-Forecaster.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h3 class="card-title">Weather Forecaster</h3>
+                  <p class="card-text">Discover the weather in any city around the world with my weather forecaster app</p>
+                  <a href="https://fishwickid.github.io/weather_app/" class="btn btn-primary">Learn More</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- column 2 -->
+      <div class="col-sm-6">
+          <div class="card" style="width:fit-content">
+              <img src="/assets/Images/Javascript-Quiz.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h3 class="card-title">
+                      <centre>Javascript Quiz</centre>
+                  </h3>
+                  <p class="card-text">Brush up on your Javascript and test your knowledge with the Javascript quiz app</p>
+                  <a href="https://fishwickid.github.io/Javascript-Quiz/quizIndex.html" class="btn btn-primary">Learn More</a>
+              </div>
+          </div>
+
+      </div>
+
   </div>
+  <!-- End Row 3-->
+
+
+ 
+
+</div>
+</body>
 
   <!-- Footer -->
 
@@ -156,11 +190,11 @@
     <header class="container-fluid">
 
       <nav class="navbar fixed-bottom navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="https://www.facebook.com/chad.fishwick">
+        <!-- <a class="navbar-brand" href="https://www.facebook.com/chad.fishwick">
           <H2 id="navText">
             <centre>SEE ME ON FACEBOOK</centre>
           </H2>
-        </a>
+        </a> -->
 
         <!-- Footer Links -->
 

@@ -34,6 +34,10 @@ p {
 margin-top: 40px;
 }
 
+#nav1, #nav2, #nav3 {
+    color: #ffffff;
+}
+
 #bioText {
     text-align: center;
     margin-top: 40px;
@@ -57,6 +61,13 @@ margin-top: 40px;
     box-shadow: 0px 0px 10px 2px #888888;
     margin-bottom: 30px;
 
+}
+#personalInfo {
+    color: #ffffff;
+    background-color: rgb(22, 21, 28);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: left;
 }
 
 p {

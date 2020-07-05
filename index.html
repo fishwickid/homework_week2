@@ -48,8 +48,7 @@
 
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link" id="nav1" href="./index.html">About <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" id="nav2" href="./portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" id="nav1" href="./index.html">Portfolio<span class="sr-only">(current)</span></a>
           <a class="nav-item nav-link" id="nav3" href="./contact.html">Contact</a>
         </div>
       </div>
@@ -64,8 +63,8 @@
   <!-- Start of Main Section-->
 
   <!-- Top section of site -->
-  <section class="topSection">
-    <H1>About Me</H1>
+  <section class="topSection1">
+   <H1>About Me</H1>
     <br>
     <br>
     <p>I am a passionate marketing professional and web developer that loves exploring the creative 
@@ -74,7 +73,7 @@
     <br>
 
     <!--BUTTON GET IN TOUCH -->
-    <a href="./contact.html" class="btn btn-secondary active" role="button" aria-pressed="true">GET IN TOUCH</a>
+    <a href="./contact.html" class="btn btn-secondary active" id="homeButton" role="button" aria-pressed="true">GET IN TOUCH</a>
 
   </section>
   <!-- end top section -->
@@ -82,16 +81,18 @@
   <div class="container-fluid" id="personalInfo">
     <div class="row">
     <div class="col-sm-12">
-      <h1><center>Personal Information</center>></h1>
-    <h3>Phone: 0416 445 060</h3>
+      <h1><center>Personal Information</center></h1>
+      <br>
+    <p>Phone: 0416 445 060</p>
 
-      <h3>Email: chadfishwick@gmail.com</h3>
+      <p>Email: chadfishwick@gmail.com</p>
       
-      <h3>Address: 6/9 Edgehill Street, Scarborough</h3>
+      <p>Address: 6/9 Edgehill Street, Scarborough</p>
       
-     <h3>Nationality: Australian</h3>
+     <p>Nationality: Australian</p>
       
-      <h3>Date of Birth: 27/09/1985</h3>
+      <p>Date of Birth: 27/09/1985</p>
+
     </div>
   </div>
 </div>
@@ -118,7 +119,7 @@
       <!-- column 1 -->
       <div class="col-sm-6">
           <div class="card" style="width:fit-content">
-              <img src="./assets/Images/Wine-2-Dine.png" class="card-img-top" alt="...">
+              <img src="/Images/Wine-2-Dine.png" class="card-img-top" alt="...">
               <div class="card-body">
                   <h3 class="card-title">Wine2Dine</h3>
                   <p class="card-text">Find the perfect wine form any cuisine and a local BYO restaurant to try new food</p>
@@ -129,7 +130,7 @@
       <!-- Column 2-->
       <div class="col-sm-6">
           <div class="card" style="width:fit-content">
-              <img src="/assets/Images/Day-Planner.png" class="card-img-top" alt="...">
+              <img src="/Images/Day-Planner.png" class="card-img-top" alt="...">
               <div class="card-body">
                   <h3 class="card-title">
                       <centre>Day Planner</centre>
@@ -145,12 +146,12 @@
   <!-- End Row 2-->
 
   <!-- Row 3 -->
-  <div class="row">
+  <div class="row" id="bottomRow">
 
       <!-- column 1-->
       <div class="col-sm-6">
           <div class="card" style="width:fit-content">
-              <img src="/assets/Images/Weather-Forecaster.png" class="card-img-top" alt="...">
+              <img src="/Images/Weather-Forecaster.png" class="card-img-top" alt="...">
               <div class="card-body">
                   <h3 class="card-title">Weather Forecaster</h3>
                   <p class="card-text">Discover the weather in any city around the world with my weather forecaster app</p>
@@ -162,7 +163,7 @@
       <!-- column 2 -->
       <div class="col-sm-6">
           <div class="card" style="width:fit-content">
-              <img src="/assets/Images/Javascript-Quiz.jpg" class="card-img-top" alt="...">
+              <img src="/Images/Javascript-Quiz.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                   <h3 class="card-title">
                       <centre>Javascript Quiz</centre>
@@ -187,33 +188,20 @@
 
   <footer>
 
-    <header class="container-fluid">
-
-      <nav class="navbar fixed-bottom navbar navbar-expand-lg navbar-light">
-        <!-- <a class="navbar-brand" href="https://www.facebook.com/chad.fishwick">
-          <H2 id="navText">
-            <centre>SEE ME ON FACEBOOK</centre>
-          </H2>
-        </a> -->
-
-        <!-- Footer Links -->
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="./index.html">About <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
-            <a class="nav-item nav-link" href="./contact.html">Contact</a>
-          </div>
-        </div>
-      </nav>
-
-    </header>
+    <div class="container-fluid" id="footer">
+      <div class="row">
+      <div class="col-sm-12">
+        <br>
+      <p>Phone: 0416 445 060</p>
+  
+        <p>Email: chadfishwick@gmail.com</p>
+        
+  
+      </div>
+    </div>
+  </div>
+  
+    <div class="centreDiv">
 
 
   </footer>

@@ -13,6 +13,10 @@ header {
 
 }
 
+#contactCards {
+    margin-top: 50px;
+}
+
 h1 {
     font-weight: 800;
     font-size: 35px;
@@ -22,12 +26,6 @@ h2 {
     color: #ffffff;
     font-weight: 800;
     font-size: 35px;
-}
-
-
-p {
-    font-weight: 100;
-
 }
 
 .form-group {
@@ -46,12 +44,35 @@ margin-top: 40px;
     margin-bottom: 10;
 }
 
-.topSection {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    padding-left: 40px;
-    padding-right: 40px;
-    background-color: #f4f4f4;
+.topSection1 {
+    text-align: center; 
+    color: #ffffff;
+    background-image:url(/Images/Marketing.jpg);
+    box-shadow:inset 0 0 0 2000px rgb(22, 21, 28, 0.7);
+    background-color: rgb(22, 21, 28);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+}
+
+.topSection2 {
+    text-align: center; 
+    color: #ffffff;
+    background-image:url(/Images/Chad_02.png);
+    box-shadow:inset 0 0 0 2000px rgb(22, 21, 28, 0.7);
+    background-color: rgb(22, 21, 28);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 60px;
+    padding-right: 60px;
     text-align: center;
 }
 
@@ -64,61 +85,63 @@ margin-top: 40px;
 }
 #personalInfo {
     color: #ffffff;
+    background-size:cover;
     background-color: rgb(22, 21, 28);
-    padding-top: 60px;
-    padding-bottom: 60px;
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: left;
+}
+
+#footer {
+    color: #ffffff;
+    background-size:cover;
+    background-color: rgb(22, 21, 28);
+    background-attachment: fixed;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: left;
 }
 
 p {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 2;
+    text-align: center;
 }
 
-#introText {
-    font-style: italic;
-    font-weight: normal;
+#formFill {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+#bottomRow {
+    margin-bottom: 100px;
+}
+
+.btn, #homeButton {
+    background-color: rgb(34, 193, 156);
+    border: cadetblue;
+    border-radius: 15px;
+    margin-top: 15px;
+    text-align: center;
 }
 
 h3 {
     margin-top: 30px;
     margin-bottom: 0px;
+    font-stretch: expanded;
     text-align: center;
     font-weight: bold;
 }
 
 .container {
     align-content: center;
-}
-
-.earlyLife {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 65px;
-    padding: 65px;
-
-}
-
-.brazil {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 65px;
-    padding: 65px;
-    background-color: #f6f6f6;
-
-}
-
-.marketing {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 65px;
-    padding: 65px;
-
-}
-
-footer {
-    text-align: center;
-    color: hotpink;
 }
 
 #navbar-brand {
